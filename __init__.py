@@ -13,7 +13,7 @@ class Mindexpression(MycroftSkill):
 
     @intent_handler('Mindexpression.intent')
     def handle_mindai(self, message):
-        self.speak_dialog('Mindexpression')
+        self.speak_dialog('mindexpression')
 
     def initialize(self):
         self.add_event('recognizer_loop:utterance',
