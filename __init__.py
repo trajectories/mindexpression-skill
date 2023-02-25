@@ -7,6 +7,7 @@ from mycroft.util.log import getLogger
 
 logger = getLogger(__name__)
 
+
 class Mindexpression(MycroftSkill):
     def __init__(self):
         super(Mindexpression, self).__init__(name="Mindexpression")
